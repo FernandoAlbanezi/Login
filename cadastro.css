@@ -3,18 +3,23 @@
    }
 
    body {
-    margin-top: 25vh;
+    height:100vh;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(#241a55, #888a88);
    }
    
    
    .cadastro {
-    width: 350px;
+    display: grid;
+    background-color: #888a88;
     padding: 50px;
-    background-color: #1e920f;
-    color: white;
-    margin: 0 auto;
-    margin-top: 100px;
-    border-radius: 4px;
+    border-radius: 3em;
+    border: #1a113a;
+    box-shadow: 3px 3px 3px 3px inset rgba(22, 22, 22, 0.1);
+    padding-left: 4em;
+    padding-right: 4em;
    }
    
    .cadastro h2 {
@@ -22,7 +27,7 @@
     margin-bottom: 20px;
    }
     
-   .cadastro input[type="text"], .cadastro input[type="email"], .cadastro input[type="password"], .cadastro input[type="CPF"] {
+   .cadastro input[type="text"], .cadastro input[type="email"], .cadastro input[type="password"], .cadastro input[type="number"] {
     width: 100%;
     padding: 10px;
     margin-bottom: 10px;

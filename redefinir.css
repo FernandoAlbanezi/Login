@@ -10,7 +10,7 @@
    .Redefinir {
     width: 350px;
     padding: 50px;
-    background-color: #1e920f;
+    background-color: #353f34;
     color: white;
     margin: 0 auto;
     margin-top: 100px;
@@ -46,12 +46,12 @@
     background-color: #1a113a;
    }
    
-   .redefinir1 {
+   .button {
     font-size: 30px;
     padding: 0 2em 0 2em;
     margin-top: 1em;
     display: inline-block;
-    background-color: #338040;
+    background-color: #000000;
     color: #ffffff;
     font-weight: bold;
     border-radius: 5px;
